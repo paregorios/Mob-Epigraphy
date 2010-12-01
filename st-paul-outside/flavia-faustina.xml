@@ -55,6 +55,9 @@
     </teiHeader>
     <text>
         <body>
+            <head xml:lang="en">
+                <date notBefore="0300" notAfter="0399" exact="none">Fourth century CE</date>
+            </head>
             <div type="figure">
                 <head>Photographs</head>
                 <figure>
