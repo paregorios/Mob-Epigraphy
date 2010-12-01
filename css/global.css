@@ -1,0 +1,66 @@
+html {
+    background-color: #8D8C69;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: #DCDDCF;
+    margin: 10px 10%;
+    padding: 10px 20px;
+    border-right: 2px solid #888888;
+    border-bottom: 2px solid #888888;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    color: #8B5F1C;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+p, ul, ol, li, div.textpart {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin-left: 10px;
+}
+
+p, ul, div.textpart  {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+p.note {
+    font-style: italic;
+}
+
+li  {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#license {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+#license p {
+    font-style: italic;
+}
+
+.graphic {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.graphic p{
+    padding: 0px;
+    margin: 0px;
+    font-style:italic;
+}
