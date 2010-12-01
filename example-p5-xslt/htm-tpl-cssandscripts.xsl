@@ -8,12 +8,18 @@
 
    <xsl:template name="css-script">
 
+    <xsl:if test="$meta-style = 'mob'">
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css"/>
+    </xsl:if>
       <link rel="stylesheet" type="text/css" media="screen, projection">
          <xsl:attribute name="href">
             <xsl:choose>
                <xsl:when test="$leiden-style = 'ddbdp'">
                   <xsl:text>http://papyri.info/global.css</xsl:text>
                </xsl:when>
+                <xsl:when test="$meta-style = 'mob'">
+                    <xsl:text>../css/global.css</xsl:text>
+                </xsl:when>
                <xsl:otherwise>
                   <xsl:text>../xsl/global.css</xsl:text>
                </xsl:otherwise>

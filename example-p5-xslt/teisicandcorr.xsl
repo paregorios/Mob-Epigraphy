@@ -62,7 +62,14 @@
                </xsl:when>
                <xsl:otherwise>
                   <xsl:text>⌜</xsl:text>
-                  <xsl:apply-templates/>
+                   <xsl:choose>
+                       <xsl:when test="$meta-style = 'mob'">
+                           <span title="lapis: {../t:sic}"><xsl:apply-templates/></span>
+                       </xsl:when>
+                       <xsl:otherwise>
+                           <xsl:apply-templates/>
+                       </xsl:otherwise>
+                   </xsl:choose>
                   <!-- cert-low template found in tpl-certlow.xsl -->
             <xsl:call-template name="cert-low"/>
                   <xsl:text>⌝</xsl:text>

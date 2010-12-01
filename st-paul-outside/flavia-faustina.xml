@@ -50,6 +50,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2010-11-23" who="TRE">initial encoding in EpiDoc from photograph</change>
+            <change when="2010-11-30" who="TRE">direct link to image URL, plus desired thumbnail size</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -57,7 +58,7 @@
             <div type="figure">
                 <head>Photographs</head>
                 <figure>
-                    <graphic url="http://picasaweb.google.com/thomase.alt/InscriptionsAndSculptureAtStPaulSInRome#5540693784371525794"/>
+                    <graphic  width="200px" url="http://lh6.ggpht.com/_tcSZVmUJxp0/TOR_pBqt-KI/AAAAAAAAAM4/-46QIqv3kSM/s720/2010-11-10%2007.48.17.jpg"/>
                     <head>Photo by Tom Elliott. 10 November 2010.</head>
                 </figure>
             </div>

@@ -11,13 +11,14 @@
             </a>
          </xsl:when>
           <xsl:when test="t:graphic">
+              <div id="gfx-{generate-id()}" class="graphic">
               <xsl:choose>
-                  <xsl:when test="contains(t:graphic/@url, '.jpg') or contains(t:graphic/@url, '.png')"><img src="{t:graphic/@url}" style="width:250px" alt="{t:head}"/></xsl:when>
+                  <xsl:when test="contains(t:graphic/@url, '.jpg') or contains(t:graphic/@url, '.png')"><a href="{t:graphic/@url}"><img src="{t:graphic/@url}" style="width:{t:graphic/@width}" alt="{t:head}"/></a></xsl:when>
                   <xsl:otherwise>
                       <p><a href="{t:graphic/@url}">click for image</a></p>
                   </xsl:otherwise>
               </xsl:choose>
-              <p><xsl:value-of select="t:head"/></p>
+              <p><xsl:value-of select="t:head"/></p></div>
           </xsl:when>
          <xsl:otherwise>
             <xsl:apply-templates/>

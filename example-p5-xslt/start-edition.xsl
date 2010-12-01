@@ -119,6 +119,7 @@
                 <xsl:when test="$meta-style = 'mob'">
                     
                     <h1><xsl:value-of select="//t:titleStmt/t:title"/></h1>
+                    <p class="note">See <a href="http://horothesia.blogspot.com/search/label/mob-epigraphy">http://horothesia.blogspot.com/search/label/mob-epigraphy</a> for background on this project.</p>
                     <p>Edited by: <xsl:for-each select="//t:titleStmt/t:editor"><xsl:value-of select="."/><br/></xsl:for-each></p>
                     
                     <p>Provenance:</p>

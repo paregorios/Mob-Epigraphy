@@ -23,6 +23,7 @@
     <name>meta-style</name>
     <value on="yes">default</value>
     <value>hgv</value>
+      <value>mob</value>
   </parameter>
   
   <parameter>
