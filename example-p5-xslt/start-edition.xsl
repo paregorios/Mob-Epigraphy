@@ -61,7 +61,8 @@
    <xsl:include href="tpl-text.xsl"/>
 
 
-
+    <xsl:output encoding="UTF-8" method="xml"  doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"  doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" indent="no"/>
+    
    <!-- HTML FILE -->
    <xsl:template match="/">
       <html>
@@ -120,7 +121,7 @@
                     
                     <h1><xsl:value-of select="//t:titleStmt/t:title"/></h1>
                     <p class="note">See <a href="http://horothesia.blogspot.com/search/label/mob-epigraphy">http://horothesia.blogspot.com/search/label/mob-epigraphy</a> for background on this project.</p>
-                    <p>Edited by: <xsl:for-each select="//t:titleStmt/t:editor"><xsl:value-of select="."/><br/></xsl:for-each></p>
+                    <p>Edited by:</p> <ul><xsl:for-each select="//t:titleStmt/t:editor"><xsl:element name="li"><xsl:if test="@xml:id"><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></xsl:if><xsl:value-of select="."/></xsl:element></xsl:for-each></ul>
                     
                     <p>Provenance:</p>
                     <ul><xsl:for-each select="//t:msDesc/t:history/t:provenance//t:event">
