@@ -54,6 +54,7 @@
             <change when="2010-11-30" who="#TRE">direct link to image URL, plus desired thumbnail size</change>
             <change when="2010-12-01" who="#RFB">added glyphs for chi rho and dolium</change>
             <change when="2010-12-01" who="#RFB">added date from ICVR</change>
+            <change when="2010-12-02" who="#RFB">new image, corrections from ICVR</change>
         </revisionDesc>
     </teiHeader>
     <text>
