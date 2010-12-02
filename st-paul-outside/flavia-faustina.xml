@@ -75,7 +75,7 @@
             <div type="edition" xml:lang="la" xml:space="preserve">
                 <head>Text</head>
                 <ab>
-                    <lb n="1"/><persName>Flavia Faustina</persName> vixit an<lb type="inWord" n="2"/>nos duos mensis octo <choice><sic>I</sic><corr>e</corr></choice>t
+                    <lb n="1"/><persName>Flavia Faustina</persName> vixit an<lb type="inWord" n="2"/>nos duos mens<choice><sic>i</sic><corr>e</corr></choice>s octo <choice><sic>i</sic><corr>e</corr></choice>t
                     <lb n="3"/>dies octo.
                     <lb n="4"/><g type="chirho"/> <g type="dolium"/>
                 </ab>
