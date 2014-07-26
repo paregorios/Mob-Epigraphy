@@ -53,22 +53,31 @@
             <change when="2010-11-23" who="#TRE">initial encoding in EpiDoc from photograph</change>
             <change when="2010-11-30" who="#TRE">direct link to image URL, plus desired thumbnail size</change>
             <change when="2010-12-01" who="#RFB">added glyphs for chi rho and dolium</change>
+            <change when="2010-12-01" who="#RFB">added date from ICVR</change>
+            <change when="2010-12-02" who="#RFB">new image, corrections from ICVR</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
+            <head xml:lang="en">
+                <date notBefore="0300" notAfter="0399" exact="none">Fourth century CE</date>
+            </head>
             <div type="figure">
                 <head>Photographs</head>
                 <figure>
                     <graphic  width="200px" url="http://lh6.ggpht.com/_tcSZVmUJxp0/TOR_pBqt-KI/AAAAAAAAAM4/-46QIqv3kSM/s720/2010-11-10%2007.48.17.jpg"/>
                     <head>Photo by Tom Elliott. 10 November 2010.</head>
                 </figure>
+                <figure>
+                    <graphic  width="200px" url="http://farm1.static.flickr.com/56/157189021_83d5632255_b.jpg"/>
+                    <head>Photo by <a href="http://www.flickr.com/photos/courgettelawn/157189021/">Tehmina Goskar</a>. 26 March 2005.</head>
+                </figure>
             </div>
             <div type="edition" xml:lang="la" xml:space="preserve">
                 <head>Text</head>
                 <ab>
-                    <lb n="1"/><persName>Flavia Faustina</persName> vixit an<lb type="inWord" n="2"/>nos duos mensis octo <choice><sic>I</sic><corr>e</corr></choice>t
-                    <lb n="3"/>diis octo.
+                    <lb n="1"/><persName>Flavia Faustina</persName> vixit an<lb type="inWord" n="2"/>nos duos mens<choice><sic>i</sic><corr>e</corr></choice>s octo <choice><sic>i</sic><corr>e</corr></choice>t
+                    <lb n="3"/>dies octo.
                     <lb n="4"/><g type="chirho"/> <g type="dolium"/>
                 </ab>
             </div>
